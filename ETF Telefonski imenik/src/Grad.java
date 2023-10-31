@@ -1,0 +1,21 @@
+public enum Grad {
+    TRAVNIK("030"),
+    ORASJE("031"),
+    ZENICA("032"),
+    SARAJEVO("033"),
+    LIVNO("034"),
+    TUZLA("035"),
+    MOSTAR("036"),
+    BIHAC("037"),
+    GORAZDE("038"),
+    SIROKI_BRIJEG("039"),
+    BRCKO("049"),
+    MRKONJIC_GRAD("050"),
+    BANJA_LUKA("051");
+
+    private String pozivniBroj;
+
+    Grad(String number) {
+        pozivniBroj=number;
+    }
+}
