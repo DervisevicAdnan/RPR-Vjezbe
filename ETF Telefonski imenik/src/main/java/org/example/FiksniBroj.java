@@ -16,8 +16,7 @@ public class FiksniBroj extends TelefonskiBroj{
     public String ispisi(){
         if(grad == null || broj == null)
             return null;
-        else
-            return grad.getPozivniBroj()+"/"+broj;
+        return grad.getPozivniBroj()+"/"+broj;
     }
 
     @Override
