@@ -27,4 +27,8 @@ public enum Grad {
     Grad(String number) {
         pozivniBroj=number;
     }
+
+    public String getPozivniBroj() {
+        return pozivniBroj;
+    }
 }
