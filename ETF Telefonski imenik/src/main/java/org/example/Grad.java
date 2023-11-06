@@ -1,3 +1,4 @@
+package org.example;
 public enum Grad {
     TRAVNIK("030"),
     ORASJE("031"),
@@ -11,7 +12,15 @@ public enum Grad {
     SIROKI_BRIJEG("039"),
     BRCKO("049"),
     MRKONJIC_GRAD("050"),
-    BANJA_LUKA("051");
+    BANJA_LUKA("051"),
+    PRIJEDOR("052"),
+    DOBOJ("053"),
+    SAMAC("054"),
+    BIJELJINA("055"),
+    ZVORNIK("056"),
+    PALE("057"),
+    FOCA("058"),
+    TREBINJE("059");
 
     private String pozivniBroj;
 
