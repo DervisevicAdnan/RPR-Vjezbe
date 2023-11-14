@@ -1,37 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <java version="21.0.1" class="java.beans.XMLDecoder">
- <object class="java.util.ArrayList">
-  <void method="add">
-   <object class="ba.unsa.etf.rpr.Laptop">
-    <void property="brend">
-     <string>hp</string>
-    </void>
-    <void property="procesor">
-     <string>i5 5300u</string>
-    </void>
-    <void property="ram">
-     <int>8</int>
-    </void>
-    <void property="velicinaEkrana">
-     <double>12.5</double>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="ba.unsa.etf.rpr.Laptop">
-    <void property="brend">
-     <string>lenovo</string>
-    </void>
-    <void property="procesor">
-     <string>i5 5300u</string>
-    </void>
-    <void property="ram">
-     <int>8</int>
-    </void>
-    <void property="velicinaEkrana">
-     <double>15.6</double>
-    </void>
-   </object>
-  </void>
- </object>
+ <object class="java.util.ArrayList"/>
 </java>

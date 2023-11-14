@@ -19,6 +19,24 @@ public class Laptop implements Serializable {
                 ", velicinaEkrana=" + velicinaEkrana +
                 '}';
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null || getClass() != obj.getClass())
+            return false;
+        Laptop laptop = (Laptop) obj;
+        return Double.compare(laptop.cijena, cijena) == 0 &&
+                ram == laptop.ram &&
+                hdd == laptop.hdd &&
+                ssd == laptop.ssd &&
+                Double.compare(laptop.velicinaEkrana, velicinaEkrana) == 0 &&
+                brend.equals(laptop.brend) &&
+                model.equals(laptop.model) &&
+                procesor.equals(laptop.procesor) &&
+                grafickaKartica.equals(laptop.grafickaKartica);
+    }
+
 
     private String model;
     private double cijena;
