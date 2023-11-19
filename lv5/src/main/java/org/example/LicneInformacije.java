@@ -1,6 +1,6 @@
 package org.example;
 
-public class LicneInformacije implements PredstaviKlasa{
+public class LicneInformacije implements PredstaviKlasa,MozeOcijeniti{
     private String ime;
     private String prezime;
 
@@ -18,6 +18,11 @@ public class LicneInformacije implements PredstaviKlasa{
 
     public void setPrezime(String prezime) {
         this.prezime = prezime;
+    }
+
+    @Override
+    public Ocjena ocijeni(int x){
+        return new Ocjena(this,x);
     }
 
     @Override
