@@ -1,6 +1,6 @@
 package org.example;
 
-public class Predmet {
+public class Predmet implements PredstaviKlasa{
     private String naziv;
     private String opis;
 
@@ -18,5 +18,10 @@ public class Predmet {
 
     public void setOpis(String opis) {
         this.opis = opis;
+    }
+
+    @Override
+    public String predstavi(){
+        return "Naziv: "+naziv+"; Opis: "+opis+"; ";
     }
 }
