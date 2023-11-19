@@ -19,7 +19,7 @@ public class InformacijeOStudentu extends LicneInformacije{
     public void setBrojIndexa(String brojIndexa) {
         this.brojIndexa = brojIndexa;
     }
-    
+
     @Override
     public Ocjena ocijeni(int x) {
         return new Ocjena(this,x);
