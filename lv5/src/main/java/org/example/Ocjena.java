@@ -20,6 +20,6 @@ public class Ocjena {
     public void setOcjena(int n){
 
         if(n>=0 && n<=10) ocjena=n;
-        throw new RuntimeException("Neispravna ocjena");
+        else throw new RuntimeException("Neispravna ocjena");
     }
 }
