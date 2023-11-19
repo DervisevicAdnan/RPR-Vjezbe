@@ -1,8 +1,15 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public class Predmet implements PredstaviKlasa{
     private String naziv;
     private String opis;
+    private ArrayList<Ocjena> ocjene;
+
+    public Predmet(){
+        ocjene=new ArrayList<>();
+    }
 
     public String getNaziv() {
         return naziv;
@@ -18,6 +25,14 @@ public class Predmet implements PredstaviKlasa{
 
     public void setOpis(String opis) {
         this.opis = opis;
+    }
+
+    public ArrayList<Ocjena> getOcjene(){
+        return ocjene;
+    }
+
+    public void dodajOcjenu(Ocjena ocjena){
+        ocjene.add(ocjena);
     }
 
     @Override
