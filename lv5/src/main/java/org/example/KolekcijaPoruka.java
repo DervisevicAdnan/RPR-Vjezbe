@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 
 public class KolekcijaPoruka {
-    ArrayList<String> kolekcija;
+    private ArrayList<String> kolekcija;
     public KolekcijaPoruka(ArrayList<PredstaviKlasa> n){
         kolekcija=new ArrayList<>();
         for (PredstaviKlasa i:n){
